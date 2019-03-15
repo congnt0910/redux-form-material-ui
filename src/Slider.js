@@ -1,4 +1,6 @@
-import Slider from 'material-ui/Slider'
+// import Slider from 'material-ui/Slider'
+import Slider from '@material-ui/lab/Slider';
+
 import createComponent from './createComponent'
 
 export default createComponent(

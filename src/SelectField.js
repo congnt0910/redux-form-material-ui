@@ -1,8 +1,10 @@
-import SelectField from 'material-ui/SelectField'
+// import SelectField from 'material-ui/SelectField'
+import Select from '@material-ui/core/Select';
+
 import createComponent from './createComponent'
 import mapError from './mapError'
 
-export default createComponent(SelectField, ({
+export default createComponent(Select, ({
   input: { onChange, value, onBlur, ...inputProps },
   onChange: onChangeFromField,
   ...props
